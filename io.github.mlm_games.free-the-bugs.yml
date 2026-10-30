@@ -36,7 +36,7 @@ modules:
         commit: 67903fb0dd613c9fc152f393ca53dec0fe65e369
         x-checker-data:
           type: git
-          tag-pattern: "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+          tag-pattern: "^([0-9]+\\.[0-9]+\\.[0-9]+)$"
 
     build-commands:
       - install -Dm644 web/index.pck /app/bin/godot-runner.pck
